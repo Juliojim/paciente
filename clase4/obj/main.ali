@@ -1,0 +1,145 @@
+V "GNAT Lib v2015"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U main%b		main.adb		d7a56fd8 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150518132148 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20150518132148 bb51c45a ada.numerics%s
+D a-nudira.ads		20150518132148 2fef2912 ada.numerics.discrete_random%s
+D a-nudira.adb		20150518132148 e57ce22b ada.numerics.discrete_random%b
+D a-reatim.ads		20150518132148 a5838d5a ada.real_time%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150518132148 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-c.ads		20150518132148 5421119b interfaces.c%s
+D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D main.adb		20151026045838 366c3aba main%b
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-imguns.ads		20150518132150 9ff43cf7 system.img_uns%s
+D s-multip.ads		20150518132150 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150518132150 2e5b26a9 system.os_interface%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-rannum.ads		20150518132150 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20150518132150 20ba1217 system.random_numbers%b
+D s-ransee.ads		20150518132150 01a57b33 system.random_seed%s
+D s-secsta.ads		20150518132150 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stausa.ads		20150518132150 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150518132150 601f6b72 system.task_info%s
+D s-taspri.ads		20150518132150 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20150518132150 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150518132150 339749f0 system.tasking%s
+D s-tassta.ads		20150518132150 70812003 system.tasking.stages%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-valuns.ads		20150518132150 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+D s-win32.ads		20150518132150 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 19e8 18|1r6 1r19 1r39 2r5 2r18 6r37 12r31 18r36 24r36 30r37
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 18|1w23 2r22
+X 5 a-numeri.ads
+16K13*Numerics 32e17 18|1r43 6r41 12r35 18r40 24r40 30r41
+X 6 a-nudira.ads
+44k22*Discrete_Random 73e33 18|1w52 6r50 12r44 18r49 24r49 30r50
+48R9 Generator<28|63R9> 18|8r26[6] 14r20[12] 20r25[18] 26r25[24] 32r28[30]
+50V13 Random{integer} 18|48s18[6] 64s17[12] 80s17[18] 96s17[24] 112s19[30]
+53U14 Reset<28|100p14> 18|44s7[6] 60s7[12] 76s7[18] 92s7[24] 108s7[30]
+X 7 a-nudira.adb
+51V16 Random[28|83]{integer} 29|392b13[18|12]
+X 11 a-textio.ads
+49K13*Text_IO 471e16 18|1w10 2r9
+263U14*Put_Line 18|45s7 50s10 52s13 61s7 66s10 68s13 77s7 82s10 84s13 93s7
+. 98s10 100s13 109s7 114s10 116s13
+X 14 interfac.ads
+68M9*Unsigned_32
+71M9*Unsigned_64
+X 18 main.adb
+4U11*Main 4b11 123l5 123t9
+5I12 rango{integer} 6r67
+6K12 randomTemperatura[6|44] 7r8 8r8
+8r4 Tm{6|48R9[6]} 44r13 48r25
+9i4 t{integer} 47m10
+11I12 rango1{integer} 12r61
+12K12 randomRitmo[6|44] 13r8 14r8
+14r4 Rt{6|48R9[12]} 60r13 64r24
+15i4 r{integer} 63m10
+17I12 rango2{integer} 18r66
+18K12 randomFrecuencia[6|44] 19r8 20r8
+20r4 Fr{6|48R9[18]} 76r13 80r24
+21i4 f{integer} 79m10
+23I12 rango3{integer} 24r66
+24K12 randomPrecionsis[6|44] 25r8 26r8
+26r4 Pr{6|48R9[24]} 92r13 96r24
+27i4 pa{integer} 95m10
+29I12 rango4{integer} 30r67
+30K12 randomPrecionasis[6|44] 31r8 32r10
+32r4 Prea{6|48R9[30]} 108r13 112r26
+33i4 pra{integer} 111m10
+35t9 Temperatura 41b14 55l8 55t19
+36t9 Ritmo 57b15 71l8 71t13
+37t9 Frecuencia 73b16 87l8 87t18
+38t9 Precionsis 89b16 103l9 103t19
+39t10 Precionasis 105b16 119l9 119t20
+42i8 temp{integer} 47r13 48m10 49r14 49r30
+46i11 i{integer}
+58i8 rit{integer} 63r13 64m10 65r14 65r29
+62i11 i{integer}
+74i8 fre{integer} 79r13 80m10 81r14 81r29
+78i11 i{integer}
+90i8 pre{integer} 95r14 96m10 97r14 97r30
+94i11 i{integer}
+106i8 preas{integer} 111r15 112m10 113r14 113r31
+110i11 i{integer}
+X 28 s-rannum.ads
+75V13*Random{14|68M9} 29|221i21
+76V13*Random{14|71M9} 29|221i21
+X 34 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
